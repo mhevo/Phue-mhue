@@ -1,5 +1,5 @@
 {
-    "name": "sqmk/phue",
+    "name": "mhevo/phue-mhue",
     "description": "Phue - Philips Hue PHP client",
     "type": "library",
     "keywords": [
@@ -8,12 +8,12 @@
         "hue",
         "client"
     ],
-    "homepage": "http://github.com/sqmk/Phue",
+    "homepage": "http://github.com/mhevo/Phue-mhue",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name":  "Michael Squires",
-            "email": "sqmk@php.net",
+            "name":  "Marc Hennessen",
+            "email": "code@mhevo.de",
             "role":  "lead"
         }
     ],
