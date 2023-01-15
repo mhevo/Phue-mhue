@@ -453,6 +453,36 @@ class Light implements LightInterface
     }
 
     /**
+     * get manufactuerer name
+     *
+     * @return string manufactuerer name
+     */
+    public function getManufacturerName()
+    {
+        return $this->attributes->manufactuerername;
+    }
+
+    /**
+     * get productname
+     *
+     * @return string productname
+     */
+    public function getProductName()
+    {
+        return $this->attributes->productname;
+    }
+
+    /**
+     * get productid
+     *
+     * @return string productid
+     */
+    public function getProductId()
+    {
+        return $this->attributes->productid;
+    }
+
+    /**
      * __toString
      *
      * @return string Light Id

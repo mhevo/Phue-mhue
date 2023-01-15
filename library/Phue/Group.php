@@ -443,6 +443,16 @@ class Group implements LightInterface
     }
 
     /**
+     * Get class
+     *
+     * @return string class
+     */
+    public function getClass()
+    {
+        return $this->attributes->class;
+    }
+
+    /**
      * Set scene on group
      *
      * @param mixed $scene
