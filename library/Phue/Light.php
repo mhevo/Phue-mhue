@@ -469,7 +469,7 @@ class Light implements LightInterface
      */
     public function getManufacturerName()
     {
-        return $this->attributes->manufactuerername;
+        return $this->attributes->manufacturername;
     }
 
     /**
