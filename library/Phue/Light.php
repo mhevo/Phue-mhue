@@ -143,16 +143,6 @@ class Light implements LightInterface
     }
 
     /**
-     * Get software Config Id
-     *
-     * @return string
-     */
-    public function getSoftwareConfigId()
-    {
-        return $this->attributes->swconfigid;
-    }
-
-    /**
      * Is the light on?
      *
      * @return bool True if on, false if not
